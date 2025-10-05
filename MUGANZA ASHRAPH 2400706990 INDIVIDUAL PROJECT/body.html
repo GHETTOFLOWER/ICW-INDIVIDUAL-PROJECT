@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The title appears in the browser tab and is important for SEO -->
+        <title>GREEN ENERGY</title>
+    </head>
+    <body>
+        <!-- Header: contains site title and top navigation links -->
+        <div class="header">
+            <!-- Main site title: consider using a semantic <header> element or ARIA roles for accessibility -->
+            <h1>GREEN ENERGY</h1>
+            <p> A SUSTAINABLE FUTURE TODAY</p>
+            <div class="navigation">
+                <!-- Anchor links: href="#id" navigates to the element with that id on the page -->
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#services">Services</a>
+            </div>
+        </div>
+
+        <div id="home" class="home">
+            <!-- Home / Introduction block -->
+            <div class="main-content">
+                <h2>Welcome to Green Energy</h2>
+                <p>
+                    A platform where you will learn about the benefits of renewable energy and
+                    how to implement sustainable practices in your daily life.
+                </p>
+            </div>
+
+            <div class="key-sections">
+                <!-- Key sections summary: short descriptions for different audiences -->
+                <h2>Key Sections</h2>
+                <p>
+                    <strong>For Home Owners:</strong>
+                    Reduce your energy bills and carbon footprint by adopting renewable energy
+                    solutions.
+                </p>
+                <p>
+                    <strong>For Businesses:</strong>
+                    Implement sustainable practices that enhance your brand and contribute to
+                    a greener future.
+                </p>
+                <p>
+                    <strong>For Communities:</strong>
+                    Collaborate on projects that promote clean energy and environmental
+                    stewardship.
+                </p>
+
+                <!-- Why green energy: high-level benefits list -->
+                <h5>WHY GREEN ENERGY?</h5>
+                <p>Green energy is crucial for several reasons:</p>
+                <!-- Unordered list: use <ul> for lists where order doesn't matter; use <ol> for ordered lists -->
+                <ul>
+                    <li>
+                        <strong>Environmental Benefits:</strong> Reduces air and water pollution,
+                        conserves natural resources, and protects ecosystems.
+                    </li>
+                    <li>
+                        <strong>Economic Advantages:</strong> Creates jobs in renewable energy
+                        sectors and reduces dependence on imported fuels.
+                    </li>
+                    <li>
+                        <strong>Energy Security:</strong> Diversifies energy supply and enhances
+                        resilience against price fluctuations and supply disruptions.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Hydropower section: includes an image and a short video demonstration -->
+            <div class="hydropower">
+                <h2>Hydropower</h2>
+                <p>
+                    Hydropower is a renewable energy source that harnesses the power of flowing
+                    water to generate electricity. It is one of the oldest and most established
+                    forms of renewable energy, providing a significant portion of the world's
+                    electricity.
+                    <br />
+                    It generates electricity by using the kinetic energy of flowing water to
+                    turn turbines, which then convert this energy into electrical power.
+                </p>
+                <!-- Image: include descriptive alt text for accessibility -->
+                <figure>
+                <!-- <img> attributes: src (path to image), alt (text for screen readers), width/height optional -->
+                <img src="pictures/Hydro power.jpeg" alt="Hydropower dam with reservoir and spillway" />
+                <figcaption>Image of Hydropower dam</figcaption>
+                </figure>
+                <!-- Video: muted autoplay is used; keep controls so users can pause or unmute -->
+                <figure>
+                <!-- <video> attributes: width/height, controls (show play/pause), autoplay, loop, muted. Keep controls for accessibility. -->
+                <video width="640" height="360" controls autoplay loop muted>
+                    <!-- <source> tag: src points to media file and type helps the browser pick a supported codec -->
+                    <source src="videos/hydroz.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption>Video showing water running turbines</figcaption>
+                </figure>
+            </div>
+
+            <!-- Solar section: describes solar energy and includes media -->
+            <div class="solar">
+                <h2>Solar Energy</h2>
+                <p>
+                    Solar energy is harnessed from the sun's rays and converted into electricity
+                    or heat. It is one of the most abundant and widely used forms of renewable
+                    energy.
+                </p>
+                <p>
+                    Solar panels, also known as photovoltaic (PV) panels, are used to capture
+                    sunlight and convert it into electricity. This clean and sustainable energy
+                    source can be used for various applications, from powering homes to
+                    fueling electric vehicles.
+                </p>
+                <!-- Constrain image size with attributes; alt text describes the image for screen readers in case the image fails to load -->
+                <figure>
+                <!-- Example of setting explicit width and height attributes to reserve layout space and improve CLS (Cumulative Layout Shift) -->
+                <img
+                    width="300"
+                    height="300"
+                    src="pictures/SOLAR.jpg"
+                    alt="Rows of solar panels in a field under a clear sky"
+                />
+                <figcaption>Image of Solar panels</figcaption>
+                </figure>
+                <!-- Video note: keep captions concise and relevant -->
+                <figure>
+                <video width="640" height="360" controls autoplay loop muted>
+                    <source src="videos/SOLARS.mp4" type="video/mp4" />
+                    <!-- Fallback content inside <video> displays for browsers that don't support HTML5 video -->
+                    Your browser does not support the video tag.
+                </video>
+                <figcaption>Video showing a solar panel field</figcaption>
+                </figure>
+            </div>
+
+            <!-- Wind energy section: includes image illustrating turbines -->
+            <div class="wind">
+                <h2>Wind Energy</h2>
+                <p>
+                    Wind energy is generated by converting the kinetic energy from wind into
+                    mechanical power or electricity. It is a clean and renewable source of
+                    energy that has gained significant popularity in recent years.
+                </p>
+                <p>
+                    Wind turbines are used to capture the wind's energy and convert it into
+                    electricity. These turbines can be installed onshore or offshore, and they
+                    play a crucial role in reducing greenhouse gas emissions and combating
+                    climate change.
+                </p>
+                <figure>
+                    <!-- Use descriptive alt text for images; avoid generic text like 'image'  for images that failed to load           -->
+                    <img width="300" height="300" src="pictures/wind.jpeg" alt="Wind turbines on a hill with blue sky" />
+                    <figcaption>Image of Wind turbines</figcaption>
+                </figure>
+            </div>
+
+            <!-- Nuclear energy section: explains nuclear energy with some images -->
+            <div class="nuclear">
+                <h2>Nuclear Energy</h2>
+                <p>
+                    Nuclear energy is produced through the process of nuclear fission, where
+                    the nucleus of an atom is split into two smaller nuclei, releasing a
+                    significant amount of energy in the form of heat. This heat is then used to
+                    generate electricity in nuclear power plants.
+                </p>
+                <p>
+                    Nuclear energy is a low-carbon energy source that can provide a stable and
+                    reliable supply of electricity. However, it also comes with challenges such
+                    as radioactive waste management and safety concerns.
+                </p>
+                <figure>
+                    <!-- Images inside figures help associate captions; figcaption should describe the visual content briefly -->
+                    <img width="300" height="300" src="pictures/nuclear.jpeg" alt="Nuclear power plant cooling towers" />
+                    <figcaption>Image of Nuclear Power plants</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <h2>WHAT IS GREEN ENERGY?</h2>
+            <p>
+                Green energy refers to energy that is generated from natural, renewable
+                resources that have a minimal impact on the environment. This includes
+                sources such as solar, wind, hydro, and geothermal energy. Green energy is
+                essential for reducing our reliance on fossil fuels and combating climate
+                change.
+                <br/>
+                Unlike fossil fuels like coal and oil, which release harmful pollutants and
+                greenhouse gases when burned, green energy sources are clean and
+                sustainable.
+            </p>
+            <figure>
+             <video width="640" height="360" controls autoplay loop muted>
+                <source src="videos/greenenergys.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+             </video>
+             <figcaption>Video showing various forms of green energy</figcaption>
+            </figure>
+        </div>
+
+        <div id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>
+                If you have any questions or would like to learn more about our services,
+                please feel free to reach out to us. We would love to hear from you!
+            </p>
+            <form action="mailto:muganzaashraph@gmail.com" method="post" enctype="text">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" required placeholder="Enter your full name" /><br /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" required placeholder="Enter your email address" /><br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea><br /><br />
+
+                <input type="submit" value="Send" />
+                <input type="reset" value="Clear" />
+            </form>
+        </div>
+
+        <div id="services" class="services">
+            <h2>Our Services</h2>
+            <ul class="list">
+                <li>
+                    <strong>Consultation:</strong> We provide expert advice on how to transition
+                    to renewable energy sources and implement sustainable practices.
+                </li>
+                <li>
+                    <strong>Installation:</strong> We teach you on how you can install
+                    renewable energy systems in your home or business.
+                </li>
+                <li>
+                    <strong>Maintenance:</strong> We offer you information on how to maintain
+                    your renewable energy systems for optimal performance.
+                </li>
+                <li>
+                    <strong>Education:</strong> We conduct workshops and seminars to educate
+                    individuals and communities about the benefits of green energy and how to
+                    adopt sustainable practices.
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 [GREEN ENERGY]. All rights reserved.</p>
+            <address>
+            <p>
+                Email:
+                <a href="mailto:muganzaashraph@gmail.com" class="text-white">muganzaashraph@gmail.com</a>
+            </p>
+            <p>Call: 
+                <a href="tel:+256744073520">+256 744 073 520</a>
+            </p>
+            </address>
+            <div class="social-links">
+                <a href="https://x.com/ghettoflower256?t=LsFVb944xB37czZgGXn8NA&s=08" target="_blank">Twitter</a>
+                <a href="https://wa.me/qr/BOSWFODOUCK6L1" target="_blank">Whatsapp</a>
+                <a href="https://github.com/GHETTOFLOWER" target="_blank">GitHub</a>
+            </div>
+        </footer>
+    </body>
+</html>
