@@ -4,17 +4,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- The title appears in the browser tab and is important for SEO -->
+        <!-- The title appears in the browser tab -->
         <title>GREEN ENERGY</title>
     </head>
     <body>
         <!-- Header: contains site title and top navigation links -->
         <div class="header">
-            <!-- Main site title: consider using a semantic <header> element or ARIA roles for accessibility -->
+            <!-- Main site title-->
             <h1>GREEN ENERGY</h1>
             <p> A SUSTAINABLE FUTURE TODAY</p>
             <div class="navigation">
-                <!-- Anchor links: href="#id" navigates to the element with that id on the page -->
+                <!-- Anchoring links: href="#id" navigates to the element with that id on the page -->
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
@@ -22,8 +22,8 @@
             </div>
         </div>
 
+        <!--Id is the link name i assigned to it and class is the name I use to edit it in CSS-->
         <div id="home" class="home">
-            <!-- Home / Introduction block -->
             <div class="main-content">
                 <h2>Welcome to Green Energy</h2>
                 <p>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="key-sections">
-                <!-- Key sections summary: short descriptions for different audiences -->
+                <!-- Key sections summary: these are my short descriptions for different audiences -->
                 <h2>Key Sections</h2>
                 <p>
                     <strong>For Home Owners:</strong>
@@ -51,10 +51,10 @@
                     stewardship.
                 </p>
 
-                <!-- Why green energy: high-level benefits list -->
+                <!-- Where I wrote the importances of green energy-->
                 <h5>WHY GREEN ENERGY?</h5>
                 <p>Green energy is crucial for several reasons:</p>
-                <!-- Unordered list: use <ul> for lists where order doesn't matter; use <ol> for ordered lists -->
+                <!-- I use unordered list so that I can write Items in any order-->
                 <ul>
                     <li>
                         <strong>Environmental Benefits:</strong> Reduces air and water pollution,
@@ -71,7 +71,7 @@
                 </ul>
             </div>
 
-            <!-- Hydropower section: includes an image and a short video demonstration -->
+            <!-- Hydropower section: includes an image and a short video demonstration about hydropower-->
             <div class="hydropower">
                 <h2>Hydropower</h2>
                 <p>
@@ -83,13 +83,13 @@
                     It generates electricity by using the kinetic energy of flowing water to
                     turn turbines, which then convert this energy into electrical power.
                 </p>
-                <!-- Image: include descriptive alt text for accessibility -->
+                <!-- Image: includes descriptive alt text for accessibility in case the image does not appear-->
                 <figure>
-                <!-- <img> attributes: src (path to image), alt (text for screen readers), width/height optional -->
+                <!-- <img> attributes: src (path to image), alt (text for screen readers), width/height are optional -->
                 <img src="pictures/Hydro power.jpeg" alt="Hydropower dam with reservoir and spillway" />
                 <figcaption>Image of Hydropower dam</figcaption>
                 </figure>
-                <!-- Video: muted autoplay is used; keep controls so users can pause or unmute -->
+                <!-- Video is muted and  autoplay is used; keep controls so users can pause or unmute -->
                 <figure>
                 <!-- <video> attributes: width/height, controls (show play/pause), autoplay, loop, muted. Keep controls for accessibility. -->
                 <video width="640" height="360" controls autoplay loop muted>
@@ -101,7 +101,7 @@
                 </figure>
             </div>
 
-            <!-- Solar section: describes solar energy and includes media -->
+            <!-- Solar section: describes solar energy and includes media also -->
             <div class="solar">
                 <h2>Solar Energy</h2>
                 <p>
@@ -115,9 +115,9 @@
                     source can be used for various applications, from powering homes to
                     fueling electric vehicles.
                 </p>
-                <!-- Constrain image size with attributes; alt text describes the image for screen readers in case the image fails to load -->
+                <!-- Change image size with attributes; alt text describes the image for screen readers in case the image fails to load -->
                 <figure>
-                <!-- Example of setting explicit width and height attributes to reserve layout space and improve CLS (Cumulative Layout Shift) -->
+                <!-- I also included the height and width of the image to enable me see my code well it was occupying the entire screen -->
                 <img
                     width="300"
                     height="300"
@@ -126,11 +126,11 @@
                 />
                 <figcaption>Image of Solar panels</figcaption>
                 </figure>
-                <!-- Video note: keep captions concise and relevant -->
+                <!-- Video, I keep captions concise and relevant to the video-->
                 <figure>
                 <video width="640" height="360" controls autoplay loop muted>
                     <source src="videos/SOLARS.mp4" type="video/mp4" />
-                    <!-- Fallback content inside <video> displays for browsers that don't support HTML5 video -->
+                    <!-- Texts inside <video> tags displays for browsers that don't support HTML5 video -->
                     Your browser does not support the video tag.
                 </video>
                 <figcaption>Video showing a solar panel field</figcaption>
@@ -152,7 +152,7 @@
                     climate change.
                 </p>
                 <figure>
-                    <!-- Use descriptive alt text for images; avoid generic text like 'image'  for images that failed to load           -->
+                    <!-- I use concise but descriptive alt text  for images that failed to load           -->
                     <img width="300" height="300" src="pictures/wind.jpeg" alt="Wind turbines on a hill with blue sky" />
                     <figcaption>Image of Wind turbines</figcaption>
                 </figure>
@@ -173,7 +173,7 @@
                     as radioactive waste management and safety concerns.
                 </p>
                 <figure>
-                    <!-- Images inside figures help associate captions; figcaption should describe the visual content briefly -->
+                    <!-- Images inside figures help associate captions, figcaption should describe the visual content briefly -->
                     <img width="300" height="300" src="pictures/nuclear.jpeg" alt="Nuclear power plant cooling towers" />
                     <figcaption>Image of Nuclear Power plants</figcaption>
                 </figure>
@@ -265,3 +265,4 @@
         </footer>
     </body>
 </html>
+
