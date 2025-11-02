@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    backdrop-filter: blur(3px);
+}
+/* Logo image styles */
+.header-logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;  /* Creates circular logo */
+    border: 3px solid rgba(25, 255, 67, 0.6);
+}
+
+/* Common styles for main content sections */
+.main-content,
+.key-sections,
+.hydropower,
+.solar,
+.wind,
+.nuclear,
+.about,
+.contact,
+.services {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2, h4, h5 {
+    text-align: center;
+    color: rgb(77, 127, 2);
+}
+h3 {
+    text-align: center;
+    color: rgb(176, 207, 130);
+}
+/* Main footer container */
+footer {
+    text-shadow: #4d9b3d;
+    background-color: rgba(7, 53, 16, 0.6);
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;  /* Circular icons */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* icon border colors */
+.icon1 { border: 2px solid rgba(255, 0, 0, 0.6); }        /* Email icon */
+.icon2 { border: 2px solid rgba(255, 255, 255, 0.6); }    /* Phone icon */
+.icon3 { border: 2px solid rgba(29, 161, 242, 0.6); }     /* Twitter icon */
+.icon4 { border: 2px solid rgba(0, 255, 8, 0.6); }        /* WhatsApp icon */
+.icon5 { border: 2px solid rgba(145, 143, 143, 0.808); }  /* GitHub icon */
+
+/* Social media links */
+.socials a {
+    text-decoration: none;
+    text-shadow: #2bff00;
+    color: yellowgreen;
+}
+
+.footer-email a {
+    text-decoration: none;
+    color: rgb(250, 254, 0);
+    text-shadow: #2bff00;
+}
+
+.footer-phone a {
+    text-decoration: none;
+    color: rgb(133, 177, 0);
+}
